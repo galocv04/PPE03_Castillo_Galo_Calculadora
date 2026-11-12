@@ -22,9 +22,10 @@ Calculadora de escritorio desarrollada en C# con Windows Forms. Permite ingresar
 
 ## Tecnologías y requisitos
 
-- Windows, C#, .NET y Windows Forms.
+- Windows, C# y Windows Forms.
+- Framework de destino del proyecto: .NET Framework 4.7.2.
 - Visual Studio con la carga de trabajo **Desarrollo de escritorio de .NET**.
-- SDK de .NET compatible con el framework de destino del proyecto. El destino figura en el archivo `.csproj`, en `<TargetFramework>`. Ejecuta `dotnet --version` desde la carpeta del proyecto para consultar la versión del SDK seleccionado.
+- Paquete de destino de .NET Framework 4.7.2 para compilar el proyecto.
 - Git para clonar el repositorio.
 
 ## Instalación y ejecución
@@ -33,7 +34,7 @@ Calculadora de escritorio desarrollada en C# con Windows Forms. Permite ingresar
 2. Abre Git Bash y ejecuta estos comandos. Sustituye `https://github.com/galocv04/PPE03_Castillo_Galo_Calculadora.git` por el enlace que copiaste.
 
    ```bash
-   git clone URL_DEL_REPOSITORIO calculadora-ppe03
+   git clone https://github.com/galocv04/PPE03_Castillo_Galo_Calculadora.git
    cd calculadora-ppe03
    ```
 
